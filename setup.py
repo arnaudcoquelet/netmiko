@@ -28,14 +28,14 @@ def find_version(*file_paths):
 
 
 setup(
-    name="netmiko",
-    version=find_version("netmiko", "__init__.py"),
-    description="Multi-vendor library to simplify Paramiko SSH connections to network devices",
+    name="sros-cli",
+    version=find_version("sros-cli", "__init__.py"),
+    description="Nokia SROS ssh library based on Netmiko",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ktbyers/netmiko",
-    author="Kirk Byers",
-    author_email="ktbyers@twb-tech.com",
+    url="https://github.com/arnaudcoquelet/sros-cli",
+    author="Arnaud Coquelet",
+    author_email="none@email.com",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
