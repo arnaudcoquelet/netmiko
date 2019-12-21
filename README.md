@@ -1,7 +1,8 @@
 SROS-CLI
 =======
 
-Nokia SROS ssh library based on [Netmiko](https://ktbyers.github.io/netmiko) from [Kirk Byers](https://pynet.twb-tech.com)
+Nokia SROS is a ssh library based on [Netmiko](https://ktbyers.github.io/netmiko) from [Kirk Byers](https://pynet.twb-tech.com).
+
 
 
 ## Installation
@@ -9,10 +10,10 @@ Nokia SROS ssh library based on [Netmiko](https://ktbyers.github.io/netmiko) fro
 To install netmiko, simply us pip:
 
 ```
-$ pip install netmiko
+$ pip install git+git://github.com/arnaudcoquelet/sros-cli.git
 ```
 
-Netmiko has the following requirements (which pip will install for you)
+SROS-CLI has the same requirements as Netmiko (which pip will install for you)
 - Paramiko >= 2.4.3
 - scp >= 0.13.2
 - pyserial
